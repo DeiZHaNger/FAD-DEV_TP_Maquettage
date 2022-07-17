@@ -1,0 +1,135 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Exo+2:wght@400;500;600&family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="style.css">
+        <title>LEVEL Ascenseurs</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="container grid">
+                <header class="container logo flex">
+                    <img src="./images/logo_level_black.png" alt="Logo Level Ascenseurs">
+                </header>
+
+                <nav class="container flex">
+                    <ul class="flex flex-column">
+                        <a href=""><li class="uppercase">Bienvenue</li></a>
+                        <a href=""><li class="uppercase">Entretien</li></a>
+                        <a href=""><li class="uppercase">Modernisation</li></a>
+                        <a href=""><li class="uppercase">Maintenance</li></a>
+                    </ul>
+                </nav>
+
+                <aside class="container flex">
+                    <form class="flex" action="">
+                        <legend class="legend bg-dark">Trouvez votre ascenseur</legend>
+                        <input type="text" name="ref" id="ref" placeholder="Code Ascenseur - Ex: 774HG526O">
+                        <button type="submit" class="search"><img src="./images/search_icon.png" alt="search icon"></button>
+                    </form>
+                </aside>
+
+                <main class="container">
+                    <div class="container title-container">
+                        <h1 class="title uppercase bg-dark">Bienvenue</h1>
+                    </div>
+
+                    <section class="container flex">
+                        <p>
+                            <span>LEVEL Ascenseurs</span> vous accueille avec son équipe, composée de techniciens hautement qualifiés et motivés, prête à répondre à vos attentes et mettre ses atouts à votre service.
+                        </p>
+
+                        <div class="container">
+                            <h3 class="legend"><span>Expérience</span> & <span>Polyvalence</span></h3>
+                            <p>
+                                Tous nos techniciens ont 5 à 15 ans d’expérience dans les métiers de l’ascenseur et ont reçu une formation complète les rendant polyvalents et opérationnels sur tous types de matériel. Ils sont encadrés par un responsable technique fort de 15 ans d’expérience qui motive et soutient son équipe de toutes ses compétences techniques et managériales.
+                            </p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="./images/cab2.jpg" alt="vieil ascenseur">
+                        </div>
+
+                        <div class="img-container">
+                            <img src="./images/synia1.jpg" alt="panneau ascenseur">
+                        </div>
+
+                        <div class="container">
+                            <h3 class="legend"><span>Qualité</span> & <span>Réactivité</span></h3>
+                            <p>
+                                Face aux grandes structures, multinationales, notre entreprise à taille humaine s’impose par une qualité de service et une réactivité élevées, bénéficiant d’une plus grande rapidité d’intervention  et de la proximité  d’une PME.
+                            </p>
+                        </div>
+
+                        <div class="container">
+                            <h3 class="legend"><span>Écoute</span> & <span>Disponibilité</span></h3>
+                            <p>
+                                Une petite taille qui nous permet de vous garantir une écoute effective et attentive. Celle-ci se matérialise, entre autres, par une grande disponibilité de la Direction pour répondre à toutes vos interrogations.
+                            </p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="./images/incab.jpg" alt="techniciens en intervention">
+                        </div>
+
+                        <div class="img-container">
+                            <img src="./images/cab1.jpg" alt="">
+                        </div>  
+
+                        <div class="container">
+                            <h3 class="legend"><span>Engagement</span> & <span>Compétitivité</span></h3>
+                            <p>
+                                Nous proposons des prestations adaptées aux spécificités de votre ascenseur, et travaillons dans le respect scrupuleux du référentiel normatif français. Nous engageons fermement quant au respect des plannings convenus pour nos interventions.
+                                Nos tarifs sont très compétitifs et explicités de façon détaillée.
+                            </p>
+                        </div>                
+                    </section>
+
+                    <div class="container title-container">
+                        <h2 class="title uppercase bg-dark">Just Level Up *</h2>
+                    </div>
+                </main>
+            </div>
+
+            <footer class="container flex bg-dark">
+                <div class="container">
+                    <ul>
+                        <a href=""><li class="uppercase">Nos Partenaires</li></a>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <form action="">
+                        <legend class="legend">Contactez-nous</legend>
+                        <div class="flex">
+                            <div>
+                                <label for="lastname">Nom</label>
+                                <input type="text" name="lastname" id="lastname">
+                                <label for="firstname">Prénom</label>
+                                <input type="text" name="firstname" id="firstname">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="flex flex-column">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="4"></textarea>
+                                <button type="submit" class="send">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="container">
+                    <h3 class="legend">Mentions légales</h3>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
