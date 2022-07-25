@@ -1,0 +1,60 @@
+:root {
+    --fs-medium: 16px;
+    --base-gap: 12px;
+    --color-dark: #787878;
+    --color-lighter: #fbfbfb;
+}
+
+/* ---------- LOGO ---------- */
+
+.logo-md {
+    display: none !important;
+}
+
+.logo img {
+    max-height: 200px;
+    max-width: 100%;
+    width: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo-md {
+      display: initial !important;
+    }
+  
+    .logo-xl {
+      display: none;
+    }
+
+    .filler {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+    .logo img {
+        max-height: 160px;
+    }
+
+}
+
+
+/* ---------- MISC ---------- */
+
+#navbarNav {
+    max-width: 260px;
+    min-width: 220px;
+    background: conic-gradient(from -50deg at 100% 100%, var(--color-lighter), 45deg, var(--color-dark), 315deg, var(--color-lighter));
+}
+
+li::before {
+    content: url('../images/button19x18.png');
+    vertical-align: calc(-0.2 * var(--fs-medium));
+    padding-right: var(--base-gap);
+}
+
+button img {
+    height: 26px;
+    width: auto;
+}

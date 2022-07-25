@@ -1,0 +1,10 @@
+@mixin gradients($theme) {
+    @each $color, $value in $theme {
+        $sub-theme: map-remove($theme, $color);
+        @each $sub-color, $sub-value in $sub-theme {
+            .#{$color}-to-#{$sub-color} {
+                background: linear-gradient(#{$value}, #{$sub-value});
+            }
+        }
+    }
+}

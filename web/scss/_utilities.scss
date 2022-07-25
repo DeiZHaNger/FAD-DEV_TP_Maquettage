@@ -58,6 +58,10 @@ $utilities: map-merge(
         null: $box-shadow,
         sm: $box-shadow-sm,
         lg: $box-shadow-lg,
+        md: $box-shadow-md,
+        inset-light: $box-shadow-inset-light,
+        inset-dark: $box-shadow-inset-dark,
+        inset-full: #{$box-shadow-inset-light, $box-shadow-inset-dark},
         none: none,
       )
     ),
